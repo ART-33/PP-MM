@@ -1,69 +1,35 @@
-/* Общие стили */
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background: #f8f8f8;
-    color: #333;
-}
+/* Фоновые стили для разделов */
 
+/* Фон для главного раздела */
 header {
-    background: #4CAF50;
+    background: url('images/header-bg.jpg') no-repeat center center/cover;
     color: white;
-    text-align: center;
     padding: 20px;
 }
 
-header h1 {
-    margin-bottom: 10px;
-    font-size: 2.5em;
-}
-
-nav ul {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    background: #333;
-    margin: 0;
-}
-
-nav ul li {
-    margin: 0 15px;
-}
-
-nav ul li a {
+/* Фон для раздела меню */
+.menu-section {
+    background: url('images/menu-bg.jpg') no-repeat center center/cover;
     color: white;
-    text-decoration: none;
-    padding: 10px;
-    display: block;
+    padding: 50px 20px;
 }
 
-nav ul li a:hover {
-    background: #4CAF50;
-    border-radius: 5px;
-}
-
-main {
-    padding: 20px;
-    text-align: center;
-}
-
-.main-image {
-    width: 100%;
-    max-width: 600px;
-    margin-top: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-}
-
-footer {
-    background: #333;
+/* Фон для банкетного зала */
+.banquet-section {
+    background: url('images/banquet-bg.jpg') no-repeat center center/cover;
     color: white;
-    text-align: center;
-    padding: 10px;
-    position: relative;
-    bottom: 0;
-    width: 100%;
-    margin-top: 20px;
+    padding: 50px 20px;
+}
+
+/* Общий стиль для текста на фоне */
+.section-title {
+    font-size: 2em;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+    margin-bottom: 20px;
+}
+
+.section-content {
+    font-size: 1.2em;
+    line-height: 1.6;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
 }
